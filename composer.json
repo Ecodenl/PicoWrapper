@@ -1,0 +1,25 @@
+{
+    "name": "ecodenl/pico-wrapper",
+    "description": "Wrapper for the PICO web service",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Patrick van Kouteren",
+            "email": "p.vankouteren@wedesignit.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Ecodenl\\PicoWrapper\\": "packages/ecodenl/pico-wrapper/src"
+        }
+    }
+}
