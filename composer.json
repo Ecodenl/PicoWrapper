@@ -6,7 +6,8 @@
     "authors": [
         {
             "name": "Patrick van Kouteren",
-            "email": "p.vankouteren@wedesignit.nl"
+            "email": "p.vankouteren@wedesignit.nl",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -14,12 +15,15 @@
         "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
-        "classmap": [
-            "database"
-        ],
         "psr-4": {
-            "App\\": "app/",
-            "Ecodenl\\PicoWrapper\\": "packages/ecodenl/pico-wrapper/src"
+            "Ecodenl\\PicoWrapper\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ecodenl\\PicoWrrapper\\PicoServiceProvider"
+            ]
         }
     }
 }
