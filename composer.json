@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ecodenl\\PicoWrrapper\\PicoServiceProvider"
+                "Ecodenl\\PicoWrapper\\PicoServiceProvider"
             ]
         }
     }
