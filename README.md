@@ -1,5 +1,10 @@
 # Pico wrapper
 
+## Installing
+```
+composer require ecodenl/pico-wrapper
+```
+
 ## Publishing
 ```
 php artisan vendor:publish --provider=Ecodenl\PicoWrapper\PicoServiceProvider --tag=config
