@@ -7,6 +7,7 @@ use Exception;
 /**
  * Default exception class.
  */
-class PicoException extends Exception {
+class PicoException extends Exception
+{
 
 }

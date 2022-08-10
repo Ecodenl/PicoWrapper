@@ -7,6 +7,6 @@ return [
     | Pico API base URL
     |--------------------------------------------------------------------------
     */
-	'base_uri' => env('PICO_URL', ''),
+    'base_uri' => env('PICO_URL', ''),
 
 ];
