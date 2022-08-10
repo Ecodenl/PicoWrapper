@@ -2,7 +2,7 @@
     "name": "ecodenl/pico-wrapper",
     "description": "Wrapper for the PICO web service",
     "type": "library",
-    "license": "GPLv3",
+    "license": "OSL-3.0",
     "authors": [
         {
             "name": "Patrick van Kouteren",
